@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3><em>Student Registration Form</em></h3>
+      <form action="" method="post">
+        <div class="cls-stdForm">
+          <label for="name">Name:</label>
+          <input type="text" name="stdName" id="name" />
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <label for="rollNum">Roll Number:</label>
+          <input type="number" name="stdRollNum" id="rollNum" />
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <label for="email">Email:</label>
+          <input type="email" name="stdEmail" id="email" />
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="stdGenderMale" id="gender" /> Male
+          <input type="radio" name="stdGenderFemale" id="gender" /> Female
+          <input type="radio" name="stdGenderOther" id="gender" /> Other
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" name="stdDOB" id="dob" />
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <label for="class">Class:</label>
+          <select name="stdClass" id="class">
+            <option value="first">First</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+            <option value="four">Four</option>
+            <option value="five">Five</option>
+            <option value="six">Six</option>
+          </select>
+        </div>
+        <br />
+
+				<div class="cls-stdForm">
+					<label for="profPic">Profile Picture:</label>
+					<input type="file" name="stdProfilePicture" id="profPic">
+				</div>
+				<br>
+
+        <div class="cls-stdForm">
+          <label for="subjects">Subjects:</label>
+          <input type="checkbox" name="stdSubjectsKannada" id="subjects" />
+          Kannada
+          <input type="checkbox" name="stdSubjectsSamskruta" id="subjects" />
+          Samskruta
+          <input type="checkbox" name="stdSubjectsHindi" id="subjects" /> Hindi
+          <input type="checkbox" name="stdSubjectsEnglish" id="subjects" />
+          English
+          <input type="checkbox" name="stdSubjectsMathematics" id="subjects" />
+          Mathematics
+          <input type="checkbox" name="stdSubjectsScience" id="subjects" />
+          Science
+          <input
+            type="checkbox"
+            name="stdSubjectsSocialScience"
+            id="subjects"
+          />
+          Social Science
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <label for="address">Address:</label>
+          <textarea
+            name="stdAddress"
+            id="address"
+            cols="50"
+            rows="10"
+          ></textarea>
+        </div>
+        <br />
+
+        <div class="cls-stdForm">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
